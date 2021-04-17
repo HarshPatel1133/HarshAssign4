@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/HarshHelp"
+        android:title="@string/help"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/HarshLocation"
+        android:title="@string/location"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_location"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/HarshSMS"
+        android:title="@string/sms"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_sms"
+        app:showAsAction="always" />
+</menu>
